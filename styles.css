@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Raleway&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    body{
+        min-height: 100vh;        
+    }
+    header{
+        position: fixed;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin-top: -1.8%;
+        background-color: #333;
+        color: white;
+        width: 90%;
+        padding: 0px 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+    header a.logo{
+        font-size: 140%;
+        color: #fff;
+    }
+    header .navbar ul li{
+        position: relative;
+        float:left;
+        margin-right: 30px;
+        list-style: none;
+    }
+    header .navbar ul li a{
+        font-family: 20px;
+        padding: 20px;
+        color:#fff;
+        display: block;
+    }
+    header .navbar ul li a:hover{
+        background-color: #fff;
+        color: #333;
+    }
+    header .navbar ul li ul{
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background-color: #ffffff;
+        display: none;
+    }
+    header .navbar ul li ul li{
+        width: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    header .navbar ul li ul li ul{
+        left: 200px;
+        top: 0;
+    }
+    header .navbar ul li:hover>ul{
+        display: initial;
+    }
+    .btn-01{
+        width: 180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-top: 10px;
+        border-radius: 2px;
+        border: none;
+    }
+.btn-01:hover{
+    cursor: pointer;
+    background-color: lightcyan;
+}
+#menu-bar{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+.sec-01{
+    margin: 15%;
+}
+.sec-01 .container{
+    margin-left: 29%;
+    font-size: 23px;
+}
+.save{
+    background-color: lightgreen;
+    padding: 10px;
+    color: #ffffff;  
+    border-radius: 15px;
+    margin-left: -2%;
+}
+.account{
+    background-color: rgb(235, 243, 235);
+    padding: 10px;
+    color: #111111;  
+    border-radius: 15px;
+}
+.div-01{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.sp-01{
+    display: block;
+    margin-left: 19%;
+}
+.sp-02{
+    display: block;
+    margin-left: 6%;
+}
+.div-02{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+.sp-03{
+    display: block;
+}
+.sp-04{
+    margin-left: 4%;
+}
+.form{
+    margin-top: 5%;
+    margin-left: 23%;
+    display: inline-block;
+}
+.mail{
+    width: 380px;
+    height: 33px;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-02{
+    width: 110px;
+    height: 36.5px;
+    margin-top: -1%;
+    margin-left: -1%;
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid transparent;
+}
+.btn-02:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.img-01{
+    margin-left: -2%;
+}
+.div-03{
+    margin-left: 22%;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.div-04{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-04 img{
+    cursor: pointer;
+}
+.div-05{
+    width: 55%;
+}
+.div-06{
+    margin-left: 14%;
+    padding-top: 5%;    
+}
+.div-07{
+    display: flex;
+    flex-direction: column;
+    margin-top: -65%;
+    margin-left: 115%;
+    width: 100%;
+}
+.div-08{
+    background-color: #ece5ff;
+    border-left: 10px solid rgb(100, 14, 229);
+    cursor: pointer;
+}
+.div-07 span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.div-07 p{
+    margin-top: 1%;
+    font-size: 20px;
+    width: 50%;
+}
+.div-09{
+    margin-top: 7%;
+    background-color: #ece5ff;
+}
+.div-10{
+    margin-top: 7%;
+    background-color: #ece5ff;
+}
+.div-11{
+    margin-top: 7%;
+    background-color: #ece5ff;
+}
+.div-12{
+    margin-top: 9%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 35%;
+}
+.div-13{
+    font-size: 35px;
+}
+.div-14{
+    margin-left: -60%;
+    margin-top: 5%;
+}
+.div-15{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.r-01{
+    width: 110%;
+    margin-left:20%;
+    margin-top: 3%;
+}
+.im-01{
+    margin-left: 20%;
+}
+.r-02{
+    margin-left: 0%;
+    margin-top: 3%;
+}
+.im-02{
+    margin-left: 0%;
+}
+.r-03{
+    margin-top: 3%;
+}
+.btn-04{
+    display: none;
+}
+.r-01 p{
+    font-weight: normal;
+    margin-top: 1%;
+}
+.r-02 p{
+    font-weight: normal;
+    margin-top: 1%;
+}
+.r-03 p{
+    font-weight: normal;
+    margin-top: 1%;
+}
+.div-19{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.im-04{
+    margin-left: 19%;
+}
+.im-05{
+    margin-left: 10%;
+}
+.im-06{
+    margin-left: 5%;
+}
+.r-04{
+    margin-top: 3%;
+}
+.r-05{
+    margin-top: 3%;
+}
+.r-06{
+    margin-top: 3%;
+}
+.r-04 span{
+    margin-left: 20%;
+}
+.r-04 p{
+    margin-left: 20%;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 1%;
+}
+.r-05 span{
+    margin-left: 8%;
+}
+.r-05 p{
+    margin-left: 8%;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 1%;
+}
+.r-06 span{
+    margin-left: 5%;
+}
+.r-06 p{
+    margin-left: 5%;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 1%;
+}
+.div-24{
+    margin-top: 15%;
+    margin-left: 8%;
+    width: 40%;
+}
+.div-25 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.div-25 span{
+    display: block;
+}
+.div-26{
+    margin-top: 7%;
+    font-size: 21px;
+}
+.div-26 span{
+    display: block;
+}
+.div-27{
+    margin-top: 7%;
+}
+.btn-03{
+    background-color:rgb(100, 14, 229);
+    color: black;
+    border: 1px solid transparent;
+    width: 170px;
+    height: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-03:hover{
+    background-color: lightcyan;
+}
+.im-07{
+    margin-left: 50%;
+    margin-top: -25%;
+}
+.div-29{
+    margin-top: 12%;
+}
+.div-31{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.div-31 span{
+    display: block;
+}
+.sp-11{
+    margin-left: 7.5%;
+}
+.div-32{
+    margin-top: 4%;
+    font-size: 24px;
+    margin-left: 27.5%;
+}
+.div-32 span{
+    display: block;
+}
+.sp-12{
+    margin-left: -6%;
+}
+.sp-13{
+    margin-left: 4.5%;
+}
+.div-33{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+.r-07{
+    margin-left: -16%;
+    font-size: 17px;
+    border-top: black 6px solid;
+    cursor: pointer;
+}
+.r-07 span{
+    display: block;
+}
+.r-08{
+    margin-left: -16%;
+    font-size: 17px;
+}
+.r-08 span{
+    display: block;
+}
+.r-09{
+    margin-left: -16%;
+    font-size: 17px;
+}
+.r-09 span{
+    display: block;
+}
+
+.div-37{
+    margin-top: 7%;
+    color: white;
+    background-color:rgb(100, 14, 229);
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 85%;
+    min-height: 28vh;
+}
+.div-38{
+    font-size: 35px;
+    margin-left: 5%;
+    padding-top: 3%;
+    width: 43%;
+}
+.div-38 span{
+    display: block;
+    margin-top: 3px;
+}
+.div-39{
+    margin-top: -5%;
+    margin-left: 60%;
+}
+.im-08{
+    margin-left: 2%;
+}
+.div-40{
+    height: 60vh;
+    font-size: 22px;
+    margin-top: 7%;
+    padding-left: 8%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.div-41{
+    display: flex;
+    flex-direction: column;
+}
+.div-42{
+    display: flex;
+    flex-direction: column;
+     margin-left: 10%;
+}
+.div-43{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.div-44{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.bold{
+    font-weight: bold;
+    font-size: 23px;
+}
+.div-41 a{
+    margin-top: 12%;
+}
+.div-42 a{
+    margin-top: 10%;
+}
+.div-43 a{
+    margin-top: 8%;
+}
+.div-44 a{
+    margin-top: 8.5%;
+}
+.div-44 img{
+    margin-top: 11%;
+}
+.div-41 a:hover,.div-42 a:hover,.div-43 a:hover,.div-44 a:hover{
+    cursor:pointer
+}
+.div-44 img:hover{
+    cursor: pointer;
+}
+.div-45{
+    padding-top: 5%;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    padding-left: 11%;
+}
+.div-46{
+    position:relative;
+    margin-left: 10%;
+    margin-left: 0%;
+}
+.div-47{
+    margin-left: 80%;
+    margin-top: -5%;
+    position:relative;
+}

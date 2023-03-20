@@ -1,0 +1,31 @@
+@media (max-width:991px){
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .navbar{
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff
+        border-top 1px solid rgba(0,0,0,.1);
+    }
+    header .navbar ul li{
+        width: 100%;
+    }
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    header .navbar ul li ul li{
+        background:#eee;
+    }
+    #menu-bar:checked ~.navbar{
+        display: initial;
+    }
+    button{
+        display: none;
+    }
+} 

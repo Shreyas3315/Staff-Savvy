@@ -1,0 +1,432 @@
+ @media screen and (min-width:991px) and (max-width:1600px){
+   .menu-icon{
+    display: none;
+   } 
+   .div-41 a i.arrow1{
+    display: none;
+   } 
+   .div-42 a i.arrow2{
+    display: none;
+   }
+   .div-43 a i.arrow3{
+    display: none;
+   }
+}  
+@media screen and (min-width:414px) and (max-width:414px){
+    body{
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    header{
+        top: 13px;
+        padding-top: 15px;
+        left: -15px;
+        padding-bottom: 12px;
+    }
+    .menu-icon a{
+        color: white;
+        padding-top: -5%;
+        cursor: pointer;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .sec-01{
+        margin: 20%;
+    }
+    .sec-01 .container{
+        margin-left: 5%;
+        width: 120%;
+        padding-top: 10%;
+    }
+    .save{
+        display: none;
+    }
+    .div-01{
+        font-size: 32px;
+        margin-top: 20%;
+        margin-left: -38%;
+        width: 200%;
+    }
+    .sp-02{
+        width: 60%;
+        margin-left: 15.5%;
+        text-align: center;
+    }
+    .div-02{
+        width: 150%;
+        margin-left: -15%;
+        font-size: 18px;
+    }
+    .sp-03{
+        display: inline;
+
+    }
+    .sp-04{
+        margin-left: -1%;
+    }
+    .form{
+        margin-left: -15%;
+    }
+    .mail{
+        width: 330px;
+        height: 40px;;
+    }
+    .btn-02{
+        color: white;
+        margin-left: 0%;
+        margin-top: 3%;
+        width: 330px;
+        height: 40px;
+    }
+    .img-01{
+        width: 160%;
+        height: 160%;
+        margin-left: -30%;
+    }
+    .div-03{
+        font-size: 13px;
+        width: 150%;
+        margin-left: -13%;
+    }
+    #slack{
+        display: none;
+    }
+    .div-04 img{
+        margin-top: 10%;
+        width: 90%;
+        height: 90%;
+        justify-content: space-between  ;
+    }
+    .google{
+        margin-left: -75%;
+    }
+    .airbnb{
+        margin-left: -20%;
+    }
+    .fb{
+        margin-left: 45%;
+    }
+    .hub{
+        margin-left: 90%;
+    }
+    .timeline{
+        margin-top: -10%;
+        width: 180%;
+        height: 180%;
+    }
+    .div-07{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .div-08{
+        padding-top: 3%;
+        width: 150%;
+        border-bottom: 7px solid rgb(100, 14, 229);
+        border-left: 0px;
+        margin-left: 15%;
+        height: 20vh;
+    }
+    .div-08 span{
+        margin-top: 5%;
+        margin-left: 11.5%;
+    }
+    .div-08 p{
+        align-items: center;
+        font-size: 20px;
+        display: inline;
+        width: 100%;
+        margin-left: 5%;
+    }
+    .div-08 p.team{
+        margin-left: -0.9%;
+    }
+    .div-09{
+        padding-top: 4%;
+        width: 150%;
+        margin-left: 15%;
+        background-color: white;
+        height: 20vh;
+    }
+    .div-09 span{
+        padding-left: 1%;
+    }
+    .div-09 p{
+        align-items: center;
+        font-size: 20px;
+        display: inline;
+        width: 100%;
+        margin-left:0.5%;
+    }
+    .div-09 p.connect{
+        margin-left: 11%;
+    }
+    .div-10{
+        padding-top: 4%;
+        width: 150%;
+        margin-left: 15%;
+        background-color: white;
+        height: 20vh;
+    }
+    .div-10 span{
+        padding-left: 12.5%;
+    }
+    .div-10 p{
+        align-items: center;
+        font-size: 20px;
+        display: inline;
+        width: 100%;
+        margin-left:3.5%;
+    }
+    .div-10 p.stake{
+        margin-left: 10%;
+    }
+    .div-11{
+        padding-top: 4%;
+        width: 150%;
+        margin-left: 15%;
+        background-color: white;
+        height: 20vh;
+    }
+    .div-11 span{
+        padding-left: 7%;
+    }
+    .div-11 p{
+        align-items: center;
+        font-size: 20px;
+        display: inline;
+        width: 100%;
+        margin-left:5%;
+    }
+    .div-11 p.result{
+        margin-left: 6%;
+    }
+    .div-13{
+        font-size: 25px;
+        margin-left: -27%;
+    }
+    .div-15{
+        flex-direction: column;
+    }
+    .im-01{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+    .r-01 span{
+        margin-left: 7%;
+    }
+    .r-01 p{
+        margin-left: -1%;
+    }
+    .r-01 p.needs{
+        margin-left: -2%;
+    }
+    .im-02{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+    .r-02 span{
+        margin-left: 36%;
+    }
+    .r-02 p{
+        margin-left: 23%;
+    }
+    .r-02 p.ones{
+        margin-left: 26%;
+    }
+    .im-03{
+        margin-top: 5%;
+        margin-left: 45%;
+    }
+    .r-03 span{
+        margin-left: 37%;
+    }
+    .r-03 p{
+        margin-left: 19%;
+    }
+    .r-03 p.personal{
+        margin-left: 17%;
+    }
+    .div-19{
+        display: none;
+    }
+    .btn-04{
+        display: inline-block;
+        background-color: #ece5ff;
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 330px;
+        height: 40px;
+        border: 1px solid transparent;
+        color: blueviolet;
+        font-weight: bold;
+    }
+    .btn-04:hover{
+        background-color: lightcyan;
+    }
+    .div-23{
+        position: relative;
+    }
+    .div-24{
+        position:absolute;
+        width: 100%;
+    }
+    .div-25{
+        margin-top: 65%;
+        font-size: 25px;
+    }
+    .div-25 span{
+        margin-left: 15%;
+    }
+    .div-25 span.work{
+        margin-left: 20.5%;
+    }
+    .div-26{
+        font-size: 15px;
+    }
+    .div-26 span.since{
+        width: 65%;
+        display: inline;
+    }
+    .div-26 span.way{
+        margin-left: 33%;
+    }
+    .div-28{
+        margin-top: 50%;
+        margin-left: -65%;
+        position: absolute;
+    }
+    .im-07{
+        height: 60%;
+        width: 60%;
+    }
+    .div-31{
+        font-size: 25px;
+        margin-top: 150%;
+    }
+    .div-27 button{
+        display: inline-block;
+        width: 350px;
+        height: 40px;
+        border: 1px solid transparent;
+        color: white;
+        font-weight: bold;
+    }
+    .div-27 button:hover{
+        background-color: blue;
+    }
+    .div-31{
+        margin-left: 21%;
+    }
+    .div-32{
+        font-size: 15px;
+        margin-left: 10%;
+    }
+    .div-32 span{
+        width: 100%;
+    }
+    .div-32 span.sp-12{
+        display: inline;
+    }
+    .div-32 span.sp-13{
+        display: inline;
+        margin-left: 0%;
+    }
+    .r-07{
+        border-top: none;
+    }
+    .div-35{
+        display: none;
+    }
+    .r-08{
+        display: none;
+    }
+    .div-36{
+        display: none;
+    }
+    .r-09{
+        display: none;
+    }
+    .div-37{
+        margin-left: -7%;
+        width: 120%;
+    }
+    .div-38{
+        width: 150%;
+        font-size: 23px;
+        margin-top: 5%;
+        margin-left: 18.5%;
+        font-weight: bold;
+    }
+    .div-38 span.trust{
+        margin-left: 1%;
+    }
+    .div-39{
+        margin-top: 10%;
+        margin-left:28%;
+        height: 36vh;
+    }
+    .im-08{
+        display: block;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .div-40{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 70vh;
+        margin-top: 10%;
+    }
+    .div-41,.div-42,.div-43,.div-44{
+        position: absolute;
+    }
+    .div-41 a,.div-42 a,.div-43 a{
+        display: none;
+    }
+    .div-41 a.bold,.div-42 a.bold,.div-43 a.bold{
+        display:flex;
+        flex-direction: column;
+    }
+    .div-41 a.bold{
+        margin-left: 10%;
+        margin-top: -100%;
+    }
+    .div-41 a.bold{
+        margin-left: 10%;
+        margin-top: -100%;
+    }
+    .div-42 a.bold{
+        margin-left: -33%;
+        margin-top: -55%;
+    }
+    .div-43 a.bold{
+        margin-left: -44%;
+        margin-top: 67%;
+    }
+    .div-44{
+        margin-top: 65%;
+        margin-left:3.5%;
+    }
+    .div-46{
+        margin-top: 30%;
+        font-size:20px;
+    }
+    .div-47{
+        display: none;
+    }
+    .arrow1{
+        margin-left: 350%;
+        margin-top: -26%;
+    }
+    .arrow2{
+        margin-left: 279%;
+        margin-top: -24%;
+    }
+    .arrow3{
+        margin-left: 374%;
+        margin-top: -35%;
+    }
+}
